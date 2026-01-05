@@ -1,0 +1,136 @@
+.profile-container {
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+}
+
+.profile-header {
+    background: white;
+    padding: var(--spacing-xl);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-lg);
+}
+
+.profile-info-main {
+    display: flex;
+    gap: var(--spacing-lg);
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info-main h1 {
+    font-size: 1.8rem;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.badge {
+    background: #e6f4ea;
+    color: var(--success);
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.profile-title {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+.profile-meta {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.star {
+    color: #fbbc04;
+}
+
+.profile-actions {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-md);
+}
+
+.price-tag {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+.profile-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-lg);
+}
+
+.section-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    margin-bottom: var(--spacing-lg);
+}
+
+.section-card h2,
+.section-card h3 {
+    margin-bottom: var(--spacing-md);
+    font-size: 1.2rem;
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    background: var(--surface);
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+}
+
+.calendar-preview {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.cal-day {
+    padding: 8px;
+    background: var(--surface);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.cal-day.available {
+    background: #e6f4ea;
+    color: var(--success);
+    font-weight: 600;
+}
+
+.availability-note {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+}

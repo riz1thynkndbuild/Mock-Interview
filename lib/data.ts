@@ -1,0 +1,46 @@
+export const INTERVIEWERS = [
+    {
+        id: '1',
+        name: 'Rahim Ahmed',
+        title: 'Senior Software Engineer',
+        company: 'Google',
+        experience: '8 Years',
+        image: 'https://ui-avatars.com/api/?name=Rahim+Ahmed&background=0D8ABC&color=fff',
+        category: 'Tech',
+        skills: ['System Design', 'React', 'Node.js', 'Go'],
+        price: 1500,
+        rating: 4.9,
+        reviews: 120,
+        verified: true,
+    },
+    {
+        id: '2',
+        name: 'Sarah Rahman',
+        title: 'HR Manager',
+        company: 'Grameenphone',
+        experience: '12 Years',
+        image: 'https://ui-avatars.com/api/?name=Sarah+Rahman&background=random&color=fff',
+        category: 'HR',
+        skills: ['Behavioral Interviews', 'Negotiation', 'Resume Review'],
+        price: 1000,
+        rating: 4.8,
+        reviews: 85,
+        verified: true,
+    },
+    {
+        id: '3',
+        name: 'Tanvir Hasan',
+        title: 'Product Manager',
+        company: 'Pathao',
+        experience: '6 Years',
+        image: 'https://ui-avatars.com/api/?name=Tanvir+Hasan&background=random&color=fff',
+        category: 'Product',
+        skills: ['Product Sense', 'Execution', 'Leadership'],
+        price: 1200,
+        rating: 4.7,
+        reviews: 45,
+        verified: true,
+    }
+];
+
+export const CATEGORIES = ['Tech', 'HR', 'Finance', 'Marketing', 'Product', 'Sales'];

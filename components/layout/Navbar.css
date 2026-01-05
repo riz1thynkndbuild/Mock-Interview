@@ -1,0 +1,50 @@
+.navbar {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    padding: var(--spacing-md) 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #c00000;
+    /* Bdjobs Red */
+    text-decoration: none;
+}
+
+.logo-suffix {
+    color: var(--text-main);
+    font-weight: 400;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.nav-link {
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+.btn-outline {
+    padding: 8px 16px;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: var(--radius);
+    font-weight: 500;
+}
+
+.btn-outline:hover {
+    background: #f0f8ff;
+}

@@ -1,0 +1,87 @@
+.feedback-container {
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+    max-width: 800px;
+}
+
+.report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.report-card {
+    background: white;
+    padding: var(--spacing-xl);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+}
+
+.report-meta {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.scores-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.score-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.progress-bar {
+    height: 8px;
+    background: var(--surface);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--primary);
+}
+
+.score-value {
+    text-align: right;
+    font-weight: 700;
+}
+
+.feedback-text-section {
+    margin-bottom: var(--spacing-lg);
+}
+
+.feedback-text-section h3 {
+    margin-bottom: var(--spacing-md);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.feedback-text-section ul {
+    list-style-position: inside;
+}
+
+.feedback-text-section li {
+    margin-bottom: 8px;
+}
+
+.summary-section {
+    background: #f8f9fa;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius);
+    margin-top: var(--spacing-xl);
+}
+
+.summary-section p {
+    font-style: italic;
+    color: var(--text-main);
+}

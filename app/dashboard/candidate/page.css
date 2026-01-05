@@ -1,0 +1,76 @@
+.dashboard-container {
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+}
+
+.dashboard-container h1 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.dashboard-section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.dashboard-section h2 {
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.4rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: var(--spacing-sm);
+}
+
+.session-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.session-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.session-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.session-time {
+    text-align: right;
+}
+
+.session-time strong {
+    display: block;
+}
+
+.feedback-card {
+    align-items: flex-start;
+}
+
+.feedback-preview {
+    flex: 1;
+    margin: 0 var(--spacing-xl);
+    background: var(--surface);
+    padding: var(--spacing-md);
+    border-radius: var(--radius);
+    position: relative;
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+.rating-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #fbbc04;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,83 @@
+.interviewer-card {
+    display: block;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--spacing-lg);
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: var(--text-main);
+}
+
+.interviewer-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.title {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border);
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat .label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.stat .value {
+    font-weight: 500;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.price small {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+.btn-text {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
